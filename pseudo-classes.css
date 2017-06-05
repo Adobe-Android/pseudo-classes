@@ -1,0 +1,14 @@
+.block {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.inline {
+  display: block;
+  border: 1px solid black;
+  margin: 25px;
+}
+
+.n-child section:nth-child(even) {
+  border: 1px dotted blue;
+}
